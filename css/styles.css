@@ -1,0 +1,168 @@
+ body{
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+text-align:center;
+}
+
+/*container*/
+
+.container-fluid{
+	padding:7% 15%;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+	padding:0 0 4.5rem;
+}
+.navbar-brand{
+	font-family:"Ubuntu";
+	font-size:2.5rem;
+	font-weight:bold;
+}
+.nav-item{
+	padding:0 18px;
+}
+.nav-link{
+	font-size:1.2rem;
+	font-family:"Montserrat-Light";
+}
+.logo{
+  height:50px;
+  width:50px;
+}
+
+
+/*About*/
+
+.taxi{
+  height:250px;
+  width:250px;
+}
+
+#about{
+  position: relative;
+  padding: 7% 15%;
+  background-color: #E1E8EB;
+
+}
+
+
+.abt-text{
+  text-align: center;
+  padding:10%;
+  color:#A0937D;
+}
+/*Button*/
+.btn {
+  background: #E1E8EB;
+  background-image: -webkit-linear-gradient(top, #E1E8EB, #E1E8EB);
+  background-image: -moz-linear-gradient(top, #E1E8EB, #E1E8EB);
+  background-image: -ms-linear-gradient(top, #E1E8EB, #E1E8EB);
+  background-image: -o-linear-gradient(top, #E1E8EB, #E1E8EB);
+  background-image: linear-gradient(to bottom, #E1E8EB, #E1E8EB);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #0F0E0F;
+  font-size: 27px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #77ACF1;
+  background-image: -webkit-linear-gradient(top, #77ACF1, #77ACF1);
+  background-image: -moz-linear-gradient(top, #77ACF1, #77ACF1);
+  background-image: -ms-linear-gradient(top, #77ACF1, #77ACF1);
+  background-image: -o-linear-gradient(top, #77ACF1, #77ACF1);
+  background-image: linear-gradient(to bottom, #77ACF1, #77ACF1);
+  text-decoration: none;
+}
+/* functionality */
+
+#functionality{
+  padding-bottom: 100px;
+  padding-top: 100px;
+   background-color: #FFC074;
+}
+
+.func{
+  padding-bottom: 15px;
+}
+
+/* footer */
+
+.footer-image{
+  padding-top: 50px;
+  padding-bottom:50px;
+
+}
+.footer-text{
+  padding-top: 70px;
+  padding-bottom:70px;
+  color:#A0937D;
+}
+ .footer-link{
+   margin:10px 20px;
+ }
+.text-stroke{
+  -webkit-text-stroke: 3px darkgrey;
+  -webkit-text-fill-color: white;
+}
+
+/* login.html */
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-top: 70px;
+}
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#form{
+  text-align: center;
+  padding: 150px;
+}
+.btn-block{
+  margin-top: 20px;
+  width: 130px;
+  margin-left: 80px;
+}
+/* a:link, a:visited {
+  /* background-color: #f44336; */
+  /* color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+} */ 
+.account{
+  margin-top: 20px;
+}
+.h3{
+  padding-top: 20px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+
+   <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+   <!-- Bootstrap core CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Custom styles for this template -->
+   <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body style="size:1040px;height:800px;background:url('images/1079100.jpg') no-repeat; background-size: cover">
+    <section id="form">
+
+
+    <form name="form1" class="form-signin"   method="POST"  onclick="required()" action="welcome.html" >
+
+      <img class="mb-4" src="images/LET'S meet.png" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Login To Lets's Meet!</h1>
+
+      <!-- <input type="text"  name="text1" class="form-control top" placeholder="Username or Email"  autofocus required/>
+      <input type="password" name="text2" id="inputPassword bottom" class="form-control" placeholder="Password" required/> -->
+
+      <input type="text"  name="text1" class="form-control top" placeholder="Username or Email" required/>
+      <input type="password" name="text2"  class="form-control" placeholder="Password" required/>
+
+      <button class="btn btn-lg btn-primary btn-block" type="submit">
+        <a href="welcome.html" style="color: white;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;">
+
+       Login</button>
+
+<p class="account">New to Lets's Meet?<a href="signup.html">  Create account</a></p>
+    </form>
+    </section>
+    <script src="login.js" ></script>
+  </body>
+</html>
