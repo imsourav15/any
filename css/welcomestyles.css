@@ -1,0 +1,89 @@
+body{
+  color: white;
+}
+
+/* .
+  }  */
+ h1{
+   font-size: 50px;
+   /* float:left; */
+  display:inline;
+ }
+
+
+.features{
+/* position: relative; */
+  color:#233E8B;
+  /* color: #00EAD3; */
+  text-align: center;
+ margin-top:200px;
+ margin-right: 150px;
+  font-size: 20px;
+}
+.fa{
+  color: white;
+  font-size :10px;
+  margin-right: 5px;
+}
+.fa-circle{
+  font-size: 10px;
+  color:black;
+
+}
+h2{
+  color:black;
+}
+
+.btn {
+  background: #30a326;
+  background-image: -webkit-linear-gradient(top, #30a326, #269e1b);
+  background-image: -moz-linear-gradient(top, #30a326, #269e1b);
+  background-image: -ms-linear-gradient(top, #30a326, #269e1b);
+  background-image: -o-linear-gradient(top, #30a326, #269e1b);
+  background-image: linear-gradient(bottom, #30a326, #269e1b);
+  -webkit-border-radius: 500;
+  -moz-border-radius: 500;
+  border-radius: 50%;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin-right:50px;
+  margin-top: 20px;
+  text-decoration: none;
+  float:right;
+  /* position:fixed; */
+}
+
+.btn:hover {
+  background: #25c7ba;
+  background-image: -webkit-linear-gradient(top, #25c7ba, #3498db);
+  background-image: -moz-linear-gradient(top, #25c7ba, #3498db);
+  background-image: -ms-linear-gradient(top, #25c7ba, #3498db);
+  background-image: -o-linear-gradient(top, #25c7ba, #3498db);
+  background-image: linear-gradient(bottom, #25c7ba, #3498db);
+  text-decoration: none;
+}
+
+
+
+
+/* navigation bar */
+/* .navbar{
+	padding:0 0 4.5rem;
+}
+.navbar-brand{
+	font-family:"Ubuntu";
+	font-size:2.5rem;
+	font-weight:bold;
+  float: left;
+}
+.nav-item{
+	padding:20px 18px;
+
+
+}
+.nav-link{
+	font-size:1.2rem;
+	font-family:"Montserrat-Light";
+} */
